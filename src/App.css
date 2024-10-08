@@ -1,0 +1,128 @@
+.app{
+  text-align: center;
+}
+
+.searchField{
+  display: flex;
+
+}
+
+.srchFld{
+  /* min-width: 250px; */
+  /* margin: 10px; */
+}
+
+
+
+.btns{
+  /* display: flex; */
+  gap: 20px;
+  /* width: 340px; */
+  margin: 10px;
+  text-align: center;
+}
+
+.search{
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+
+.bookListBTN{
+  gap: 20px;
+    /* width: 100%; */
+    margin: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+  text-align: center;
+}
+
+
+.modalBtn{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  /* bottom: 5; */
+  
+}
+
+.bookDtl{
+  display: flex;
+  justify-content: space-around;
+}
+
+.bookBtn{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.bookItem{
+  width: 45%;
+  border: 1PX solid gray;
+  border-radius: 10px;
+  margin: 3px;
+  padding: 3px;
+  display: flex;
+  flex-direction: column;
+}
+.book-list{
+  display: flex;
+  justify-content: space-evenly;
+  overflow: auto;
+  flex-wrap: wrap;
+}
+
+.addFlds{
+
+}
+
+.modalImg{
+  min-height: 100px;
+}
+
+.modalMain{
+  position: 'absolute';
+  top: '50%';
+  left: '50%';
+  transform: 'translate(-50%, -50%)';
+  width: 400;
+  min-height: '60vh';
+
+  background-color: 'background.paper';
+  border: '2px solid #000';
+  box-shadow: 24;
+  padding: 4;
+}
+
+
+
+@media (max-width: 600px) {
+  
+  .btns {
+    width: 100%;
+  }
+
+  .searchField{
+    flex-direction: column;
+  }
+
+  .bookListBTN {
+  }
+
+.modalMain{
+  width: 250px !important;
+}
+
+.bookDtl{
+  flex-direction: column;
+
+}
+
+.bookBtn{
+  flex-direction: column;
+
+}
+
+ 
+}
